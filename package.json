@@ -1,0 +1,60 @@
+{
+  "name": "storybook-prop-variations-plugin",
+  "version": "1.0.0",
+  "description": "This plugin cartesian maps all props of a component and creates individual stories for each mapping to quickly allow testing of all props against each other.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://buggedcom@github.com/buggedcom/storybook-prop-variations-plugin.git"
+  },
+  "keywords": [
+    "storybook",
+    "storybook",
+    "addon",
+    "props",
+    "variations",
+    "prop",
+    "variations",
+    "cartesian",
+    "mapping",
+    "cartesian",
+    "testing",
+    "tests",
+    "design"
+  ],
+  "author": "Oliver Lillie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/buggedcom/storybook-prop-variations-plugin/issues"
+  },
+  "homepage": "https://github.com/buggedcom/storybook-prop-variations-plugin#readme",
+  "devDependencies": {
+    "@typescript-eslint/parser": "^5.51.0",
+    "eslint": "^8.33.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-config-react-app": "7.0.1",
+    "eslint-plugin-chai-expect": "3.0.0",
+    "eslint-plugin-chai-friendly": "0.7.2",
+    "eslint-plugin-jest": "^26.1.5",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "6.0.0",
+    "eslint-plugin-react": "7.29.4",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-unused-imports": "2.0.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-config-standard-react": "13.0.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.1"
+  },
+  "lint-staged": {
+    "**/*.{js,jsx,ts,tsx}": [
+      "prettier --write",
+      "eslint --cache --fix"
+    ]
+  }
+}
